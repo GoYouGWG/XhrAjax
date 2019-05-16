@@ -2,7 +2,6 @@
 ##
 由于jQuery用得越来越少, 而且使用时经常只使用了其中一部分功能, 不想全部引入, 因此自己封装了请求
 # 使用方式
-##
 	1.引入 xhrAjax.js
 	<script src="XhrRequest.js"></script>
 	2.执行请求方式
@@ -20,7 +19,6 @@
        }
      })
 # 请求配置说明
-##
 - url: 请求连接
 - type: 请求方法, 默认 GET
 - async: 是否异步, 默认 true
